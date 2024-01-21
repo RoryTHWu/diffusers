@@ -13,7 +13,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 
-import argparse
+import argparse 
 import logging
 import math
 import os
@@ -49,6 +49,7 @@ from diffusers.utils.import_utils import is_xformers_available
 from diffusers.utils.torch_utils import is_compiled_module
 
 
+# Check if wandb is available and import it if so
 if is_wandb_available():
     import wandb
 
